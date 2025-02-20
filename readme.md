@@ -1,4 +1,4 @@
-This is an attempt by 5 dudes with no prior knowledge about anything related to AI to create a working game in which the boss develops after each game with the user as it starts to adapt to the user's playstyle.
+This is an attempt by 5 dudes with no prior knowledge about anything related to AI to create a working game in which the boss adapts to the user's playstyle after each game and plays accordingly.
 
 Imagine playing a game where the boss is like maharoga as it levels up just like in Solo Levelling.
 
