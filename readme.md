@@ -5,8 +5,8 @@ Imagine playing a game where the boss is like maharoga as it levels up just like
 It is a topdown type game which engages the user to fight the boss.
 
 The 5 dudes who worked on this: 
-BruhGamer05
-d1vy3
-K-1809
-theb1gf00t
-Mr-excaliver
+-BruhGamer05
+-d1vy3
+-K-1809
+-theb1gf00t
+-Mr-excaliver
