@@ -1,0 +1,33 @@
+version: "0.0.1"
+
+metadata:
+  name: "Ballers"
+  description: "Adaptive Game Boss AI"
+  author: "bruh"
+  tags: [gaming]
+  private: true
+
+inputs:
+  fightdata:
+    type: string
+    description: "Player's playstyle"
+    required: true
+  bosscode:
+    type: string
+    description: "Boss Data"
+    required: true
+
+model:
+  provider: "openai"
+  name: "gpt-4o"
+
+prompt: |
+  Analyse the player's playstyle in the game and modify the boss's playstyle accordingly in the fixed given format. 
+  The sum of all values of boss actions must be 100, and no other thing should be changed in the code except for the values. 
+  Only write the code, nothing else, write the output code as text and not as a gdscript codeblock.
+  Player data: {fightdata}
+  Boss Code: {bosscode}
+
+
+readme:
+  Game Boss AI

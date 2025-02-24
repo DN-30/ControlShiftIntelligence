@@ -1,0 +1,166 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://src/scripts/Boss.gd" type="Script" id=1]
+[ext_resource path="res://src/scenes/WhatsApp_Image_2025-02-23_at_14.47.05_f4b17d0a-removebg-preview.png" type="Texture" id=2]
+[ext_resource path="res://src/Imports/force_shield-Sheet.png" type="Texture" id=3]
+[ext_resource path="res://force_shield-Sheet.png" type="Texture" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 58.9991, 89.0921 )
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 121.302
+
+[sub_resource type="Animation" id=3]
+resource_name = "attack"
+tracks/0/type = "value"
+tracks/0/path = NodePath("melee_hitbox/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "block"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("hurtbox/CollisionShape2D:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, false ]
+}
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 46.0015, 88.5309 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 64, 64 )
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ SubResource( 6 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="Animation" id=8]
+resource_name = "aura"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("attack:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 6, 6 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("attack:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 74.719, 96.1652 )
+
+[node name="Boss" type="KinematicBody2D"]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0.253174, 0.0758343 )
+scale = Vector2( 0.57447, 0.545744 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="melee" type="Timer" parent="."]
+wait_time = 3.0
+
+[node name="ranged" type="Timer" parent="."]
+wait_time = 4.0
+
+[node name="tackle" type="Timer" parent="."]
+wait_time = 5.0
+
+[node name="block" type="Timer" parent="."]
+wait_time = 3.0
+
+[node name="melee_hitbox" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="melee_hitbox"]
+shape = SubResource( 2 )
+disabled = true
+
+[node name="AttackPlayer" type="AnimationPlayer" parent="."]
+anims/attack = SubResource( 3 )
+anims/block = SubResource( 4 )
+
+[node name="holder" type="Position2D" parent="."]
+
+[node name="hurtbox" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hurtbox"]
+position = Vector2( 9.63025, 1.68369 )
+shape = SubResource( 5 )
+
+[node name="cooldown" type="Timer" parent="."]
+wait_time = 5.0
+one_shot = true
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+visible = false
+self_modulate = Color( 0.588235, 0.686275, 0.580392, 1 )
+position = Vector2( 9.57721, 8.46355 )
+scale = Vector2( 5.18305, 5.21785 )
+frames = SubResource( 7 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/aura = SubResource( 8 )
+
+[node name="attack" type="Sprite" parent="."]
+visible = false
+self_modulate = Color( 0.627451, 0.0352941, 0.0352941, 1 )
+scale = Vector2( 6, 6 )
+texture = ExtResource( 4 )
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 9 )
+[connection signal="timeout" from="melee" to="." method="_on_melee_timeout"]
+[connection signal="timeout" from="ranged" to="." method="_on_ranged_timeout"]
+[connection signal="timeout" from="tackle" to="." method="_on_tackle_timeout"]
+[connection signal="timeout" from="block" to="." method="_on_block_timeout"]
+[connection signal="area_entered" from="hurtbox" to="." method="_on_hurtbox_area_entered"]
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

@@ -1,0 +1,613 @@
+[
+	[
+		[
+			[
+				[
+					[
+						[
+							[
+								[
+									[
+										[
+											[
+												[
+													[
+														[
+															[
+																[
+																	[
+																		[
+																			[
+																				[
+																					[
+																						[
+																							"Player_Data",
+																							{
+																								"fight_id": 1740312933,
+																								"melee_usage": 8,
+																								"ranged_usage": 2,
+																								"heal_usage": 0,
+																								"damage_dealt": 290,
+																								"damage_taken": 4,
+																								"type_of_player": "aggressive",
+																								"attack_pattern": [
+																									"range",
+																									"melee",
+																									"melee",
+																									"melee",
+																									"melee",
+																									"melee",
+																									"melee",
+																									"range",
+																									"melee",
+																									"melee"
+																								],
+																								"result_of_match": "Boss WON"
+																							}
+																						],
+																						{
+																							"fight_id": 1740312953,
+																							"melee_usage": 0,
+																							"ranged_usage": 0,
+																							"heal_usage": 0,
+																							"damage_dealt": 0,
+																							"damage_taken": 5,
+																							"type_of_player": "balanced",
+																							"attack_pattern": [
+
+																							],
+																							"result_of_match": "Boss WON"
+																						}
+																					],
+																					{
+																						"fight_id": 1740313029,
+																						"melee_usage": 9,
+																						"ranged_usage": 0,
+																						"heal_usage": 0,
+																						"damage_dealt": 500,
+																						"damage_taken": 3,
+																						"type_of_player": "aggressive",
+																						"attack_pattern": [
+																							"melee",
+																							"melee",
+																							"melee",
+																							"melee",
+																							"melee",
+																							"melee",
+																							"melee",
+																							"melee",
+																							"melee"
+																						],
+																						"result_of_match": "Player WON"
+																					}
+																				],
+																				{
+																					"fight_id": 1740313061,
+																					"melee_usage": 1,
+																					"ranged_usage": 7,
+																					"heal_usage": 0,
+																					"damage_dealt": 190,
+																					"damage_taken": 4,
+																					"type_of_player": "aggressive",
+																					"attack_pattern": [
+																						"range",
+																						"range",
+																						"range",
+																						"range",
+																						"range",
+																						"range",
+																						"range",
+																						"melee"
+																					],
+																					"result_of_match": "Boss WON"
+																				}
+																			],
+																			{
+																				"fight_id": 1740313260,
+																				"melee_usage": 8,
+																				"ranged_usage": 2,
+																				"heal_usage": 1,
+																				"damage_dealt": 440,
+																				"damage_taken": 2,
+																				"type_of_player": "aggressive",
+																				"attack_pattern": [
+																					"melee",
+																					"melee",
+																					"melee",
+																					"melee",
+																					"melee",
+																					"range",
+																					"melee",
+																					"heal",
+																					"melee",
+																					"range",
+																					"melee"
+																				],
+																				"result_of_match": "Player WON"
+																			}
+																		],
+																		{
+																			"fight_id": 1740313307,
+																			"melee_usage": 12,
+																			"ranged_usage": 2,
+																			"heal_usage": 0,
+																			"damage_dealt": 470,
+																			"damage_taken": 3,
+																			"type_of_player": "aggressive",
+																			"attack_pattern": [
+																				"melee",
+																				"melee",
+																				"melee",
+																				"melee",
+																				"melee",
+																				"melee",
+																				"melee",
+																				"melee",
+																				"range",
+																				"melee",
+																				"melee",
+																				"melee",
+																				"range",
+																				"melee"
+																			],
+																			"result_of_match": "Player WON"
+																		}
+																	],
+																	{
+																		"fight_id": 1740313371,
+																		"melee_usage": 10,
+																		"ranged_usage": 1,
+																		"heal_usage": 0,
+																		"damage_dealt": 370,
+																		"damage_taken": 4,
+																		"type_of_player": "aggressive",
+																		"attack_pattern": [
+																			"melee",
+																			"melee",
+																			"range",
+																			"melee",
+																			"melee",
+																			"melee",
+																			"melee",
+																			"melee",
+																			"melee",
+																			"melee",
+																			"melee"
+																		],
+																		"result_of_match": "Boss WON"
+																	}
+																],
+																{
+																	"fight_id": 1740313399,
+																	"melee_usage": 4,
+																	"ranged_usage": 4,
+																	"heal_usage": 0,
+																	"damage_dealt": 230,
+																	"damage_taken": 4,
+																	"type_of_player": "aggressive",
+																	"attack_pattern": [
+																		"range",
+																		"range",
+																		"range",
+																		"melee",
+																		"melee",
+																		"range",
+																		"melee",
+																		"melee"
+																	],
+																	"result_of_match": "Boss WON"
+																}
+															],
+															{
+																"fight_id": 1740322991,
+																"melee_usage": 0,
+																"ranged_usage": 4,
+																"heal_usage": 0,
+																"damage_dealt": 60,
+																"damage_taken": 4,
+																"type_of_player": "aggressive",
+																"attack_pattern": [
+																	"range",
+																	"range",
+																	"range",
+																	"range"
+																],
+																"result_of_match": "Boss WON"
+															}
+														],
+														{
+															"fight_id": 1740323059,
+															"melee_usage": 36,
+															"ranged_usage": 11,
+															"heal_usage": 2,
+															"damage_dealt": 350,
+															"damage_taken": 6,
+															"type_of_player": "aggressive",
+															"attack_pattern": [
+																"range",
+																"heal",
+																"range",
+																"melee",
+																"melee",
+																"melee",
+																"range",
+																"range",
+																"range",
+																"melee",
+																"melee",
+																"melee",
+																"range",
+																"range",
+																"range",
+																"range",
+																"range",
+																"melee",
+																"heal",
+																"range",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee",
+																"melee"
+															],
+															"result_of_match": "Player WON"
+														}
+													],
+													{
+														"fight_id": 1740323088,
+														"melee_usage": 5,
+														"ranged_usage": 2,
+														"heal_usage": 0,
+														"damage_dealt": 90,
+														"damage_taken": 4,
+														"type_of_player": "aggressive",
+														"attack_pattern": [
+															"range",
+															"range",
+															"melee",
+															"melee",
+															"melee",
+															"melee",
+															"melee"
+														],
+														"result_of_match": "Boss WON"
+													}
+												],
+												{
+													"fight_id": 1740323118,
+													"melee_usage": 29,
+													"ranged_usage": 4,
+													"heal_usage": 2,
+													"damage_dealt": 160,
+													"damage_taken": 8,
+													"type_of_player": "aggressive",
+													"attack_pattern": [
+														"melee",
+														"range",
+														"heal",
+														"range",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"range",
+														"range",
+														"heal",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee",
+														"melee"
+													],
+													"result_of_match": "Boss WON"
+												}
+											],
+											{
+												"fight_id": 1740379617,
+												"melee_usage": 0,
+												"ranged_usage": 0,
+												"heal_usage": 0,
+												"damage_dealt": 0,
+												"damage_taken": 4,
+												"type_of_player": "balanced",
+												"attack_pattern": [
+
+												],
+												"result_of_match": "Boss WON"
+											}
+										],
+										{
+											"fight_id": 1740379822,
+											"melee_usage": 29,
+											"ranged_usage": 4,
+											"heal_usage": 0,
+											"damage_dealt": 310,
+											"damage_taken": 4,
+											"type_of_player": "aggressive",
+											"attack_pattern": [
+												"range",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"range",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"melee",
+												"range",
+												"melee",
+												"melee",
+												"range"
+											],
+											"result_of_match": "Boss WON"
+										}
+									],
+									{
+										"fight_id": 1740379849,
+										"melee_usage": 0,
+										"ranged_usage": 0,
+										"heal_usage": 0,
+										"damage_dealt": 0,
+										"damage_taken": 6,
+										"type_of_player": "balanced",
+										"attack_pattern": [
+
+										],
+										"result_of_match": "Boss WON"
+									}
+								],
+								{
+									"fight_id": 1740380927,
+									"melee_usage": 8,
+									"ranged_usage": 1,
+									"heal_usage": 0,
+									"damage_dealt": 470,
+									"damage_taken": 4,
+									"type_of_player": "aggressive",
+									"attack_pattern": [
+										"melee",
+										"melee",
+										"melee",
+										"melee",
+										"melee",
+										"range",
+										"melee",
+										"melee",
+										"melee"
+									],
+									"result_of_match": "Player WON"
+								}
+							],
+							{
+								"fight_id": 1740380951,
+								"melee_usage": 40,
+								"ranged_usage": 3,
+								"heal_usage": 1,
+								"damage_dealt": 410,
+								"damage_taken": 5,
+								"type_of_player": "aggressive",
+								"attack_pattern": [
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"heal",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"range",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"range",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"melee",
+									"range"
+								],
+								"result_of_match": "Player WON"
+							}
+						],
+						{
+							"fight_id": 1740381695,
+							"melee_usage": 10,
+							"ranged_usage": 0,
+							"heal_usage": 0,
+							"damage_dealt": 500,
+							"damage_taken": 3,
+							"type_of_player": "aggressive",
+							"attack_pattern": [
+								"melee",
+								"melee",
+								"melee",
+								"melee",
+								"melee",
+								"melee",
+								"melee",
+								"melee",
+								"melee",
+								"melee"
+							],
+							"result_of_match": "Player WON"
+						}
+					],
+					{
+						"fight_id": 1740381888,
+						"melee_usage": 0,
+						"ranged_usage": 0,
+						"heal_usage": 0,
+						"damage_dealt": 0,
+						"damage_taken": 4,
+						"type_of_player": "balanced",
+						"attack_pattern": [
+
+						],
+						"result_of_match": "Boss WON"
+					}
+				],
+				{
+					"fight_id": 1740394416,
+					"melee_usage": 7,
+					"ranged_usage": 0,
+					"heal_usage": 0,
+					"damage_dealt": 300,
+					"damage_taken": 4,
+					"type_of_player": "aggressive",
+					"attack_pattern": [
+						"melee",
+						"melee",
+						"melee",
+						"melee",
+						"melee",
+						"melee",
+						"melee"
+					],
+					"result_of_match": "Boss WON"
+				}
+			],
+			{
+				"fight_id": 1740394544,
+				"melee_usage": 1,
+				"ranged_usage": 1,
+				"heal_usage": 0,
+				"damage_dealt": 70,
+				"damage_taken": 3,
+				"type_of_player": "aggressive",
+				"attack_pattern": [
+					"range",
+					"melee"
+				],
+				"result_of_match": "Boss WON"
+			}
+		],
+		{
+			"fight_id": 1740395228,
+			"melee_usage": 11,
+			"ranged_usage": 1,
+			"heal_usage": 1,
+			"damage_dealt": 470,
+			"damage_taken": 5,
+			"type_of_player": "aggressive",
+			"attack_pattern": [
+				"melee",
+				"melee",
+				"heal",
+				"melee",
+				"range",
+				"melee",
+				"melee",
+				"melee",
+				"melee",
+				"melee",
+				"melee",
+				"melee",
+				"melee"
+			],
+			"result_of_match": "Player WON"
+		}
+	],
+	{
+		"fight_id": 1740395245,
+		"melee_usage": 1,
+		"ranged_usage": 0,
+		"heal_usage": 1,
+		"damage_dealt": 50,
+		"damage_taken": 4,
+		"type_of_player": "defensive",
+		"attack_pattern": [
+			"heal",
+			"melee"
+		],
+		"result_of_match": "Boss WON"
+	}
+]
